@@ -210,7 +210,6 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.80798</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -323,6 +322,14 @@
           <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="42"/>
+          <controller ctrl="7" value="101"/>
+          <controller ctrl="10" value="63"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="harmony">
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
+          <program value="0"/>
           <controller ctrl="7" value="101"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -3859,9 +3866,6 @@ Op.135  4th Movement</text>
               <tpc>22</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>0</fractions>
-            </location>
           <BarLine>
             <subtype>double</subtype>
             <span>1</span>
@@ -6850,9 +6854,6 @@ Op.135  4th Movement</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>0</fractions>
-            </location>
           <BarLine>
             <subtype>double</subtype>
             <span>1</span>
@@ -9069,9 +9070,6 @@ Op.135  4th Movement</text>
           <Rest>
             <durationType>half</durationType>
             </Rest>
-          <location>
-            <fractions>0</fractions>
-            </location>
           <BarLine>
             <subtype>double</subtype>
             <span>1</span>
@@ -34255,14 +34253,14 @@ parte al suo piacere.</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I[I6</name>
-            </Harmony>
           <Clef>
             <concertClefType>C4</concertClefType>
             <transposingClefType>C4</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I[I6</name>
+            </Harmony>
           <StaffText>
             <text><font size="12"></font><b><i>p</i></b></text>
             </StaffText>
@@ -34623,15 +34621,15 @@ parte al suo piacere.</text>
         </Measure>
       <Measure>
         <voice>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
             <offset x="-0.10535" y="-5.42684"/>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>half</durationType>
@@ -34791,15 +34789,15 @@ parte al suo piacere.</text>
         </Measure>
       <Measure>
         <voice>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>IV64</name>
             <offset x="-0.292684" y="-6.25413"/>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>half</durationType>
@@ -34960,15 +34958,15 @@ parte al suo piacere.</text>
         </Measure>
       <Measure>
         <voice>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I</name>
             <offset x="0" y="-3.08537"/>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -37192,15 +37190,15 @@ parte al suo piacere.</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>vi</name>
             <offset x="0.197348" y="-0.526521"/>
             </Harmony>
-          <Clef>
-            <concertClefType>C4</concertClefType>
-            <transposingClefType>C4</transposingClefType>
-            </Clef>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -37334,15 +37332,15 @@ parte al suo piacere.</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>IV</name>
             <offset x="0" y="-4.21182"/>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -38328,15 +38326,15 @@ parte al suo piacere.</text>
         </Measure>
       <Measure>
         <voice>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V</name>
             <offset x="0" y="-1.41459"/>
             </Harmony>
-          <Clef>
-            <concertClefType>C4</concertClefType>
-            <transposingClefType>C4</transposingClefType>
-            </Clef>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>half</durationType>
@@ -38460,14 +38458,14 @@ parte al suo piacere.</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I\\</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I\\</name>
+            </Harmony>
           <StaffText>
             <placement>below</placement>
             <offset x="-0.690718" y="0.11989"/>
@@ -38588,14 +38586,14 @@ parte al suo piacere.</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2</name>
-            </Harmony>
           <Clef>
             <concertClefType>C4</concertClefType>
             <transposingClefType>C4</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -39130,14 +39128,14 @@ parte al suo piacere.</text>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2</name>
+            </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
             <durationType>quarter</durationType>
@@ -40756,7 +40754,7 @@ parte al suo piacere.</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI+7</name>
+            <name>VI+M7</name>
             <offset x="0" y="-3.65071"/>
             </Harmony>
           <Chord>
@@ -40869,7 +40867,7 @@ parte al suo piacere.</text>
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VI+7</name>
+            <name>VI+M7</name>
             <offset x="0.0175099" y="-3.52814"/>
             </Harmony>
           <Beam>
@@ -43613,14 +43611,14 @@ parte al suo piacere.</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I]</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I]</name>
+            </Harmony>
           <StaffText>
             <text><font size="12"></font><b><i>p</i></b></text>
             </StaffText>
@@ -43907,14 +43905,14 @@ parte al suo piacere.</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>I</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
           <StaffText>
             <text><font size="10"></font><i>cresc.</i></text>
             </StaffText>
@@ -44960,15 +44958,15 @@ parte al suo piacere.</text>
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>C4</concertClefType>
+            <transposingClefType>C4</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>bVII</name>
             <offset x="0" y="-3.58541"/>
             </Harmony>
-          <Clef>
-            <concertClefType>C4</concertClefType>
-            <transposingClefType>C4</transposingClefType>
-            </Clef>
           <StaffText>
             <placement>below</placement>
             <offset x="0.789392" y="0.97197"/>
@@ -45685,15 +45683,15 @@ parte al suo piacere.</text>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V[I64</name>
             <offset x="0.0986739" y="-4.72434"/>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <StaffText>
             <offset x="-0.00986735" y="-4.88144"/>
             <text><font size="8.5"></font>arco</text>
